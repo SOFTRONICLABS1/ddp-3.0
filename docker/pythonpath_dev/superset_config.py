@@ -91,7 +91,7 @@ class CeleryConfig:
 
 
 CELERY_CONFIG = CeleryConfig
-
+MAPBOX_API_KEY = "pk.eyJ1IjoiamVldmFuLWwtc29mdHJvbmljbGFicyIsImEiOiJjbGs5aDFlam0wcmttM21ydDQ5eTVjdjNoIn0.yuWLzQxX7-LLX52kngvqug"
 SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=800).total_seconds())
 SQLALCHEMY_POOL_SIZE = 24000
 SQLALCHEMY_MAX_OVERFLOW = 24000
